@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     borderRadius: 4,
   },
   buttonText: {
-    color: "white",
+    color: "#3B3030",
     textAlign: "center",
   },
   flatText: {

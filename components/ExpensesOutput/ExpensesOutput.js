@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     // alignItems: "center",
   },
   infoText: {
-    color: "white",
+    color: "#795757",
     fontSize: 16,
     textAlign: "center",
     marginTop: 32,

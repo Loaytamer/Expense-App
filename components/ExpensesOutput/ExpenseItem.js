@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
   textBase: {
-    color: GlobalStyles.colors.primary50,
+    color: "#795757",
   },
   description: {
     fontSize: 16,
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
   amountContainer: {
     paddingHorizontal: 12,
     paddingVertical: 4,
-    backgroundColor: "white",
+    backgroundColor: "#664343",
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 4,
