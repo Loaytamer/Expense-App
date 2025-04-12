@@ -40,10 +40,9 @@ export async function fetchExpenses() {
   }
 }
 
-
 export async function updateExpense(id, expenseData) {
   try {
-    const response = await axios.put(`${BASE_URL}l/expenses/${id}.json`, {
+    const response = await axios.put(`${BASE_URL}/expenses/${id}.json`, {
       amount: expenseData.amount,
       description: expenseData.description,
       date: expenseData.date.toISOString(),
@@ -69,8 +68,6 @@ export async function updateExpense(id, expenseData) {
     throw new Error(errorMessage);
   }
 }
-
-
 
 export async function deleteExpense(id) {
   try {
